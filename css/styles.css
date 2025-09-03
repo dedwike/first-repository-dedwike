@@ -1,0 +1,20 @@
+:root{
+	--txt-color: #212121;
+	--ndtxt-color: #757575;
+	--hover-color: #2196F3;
+	--white-color: #FFFFFF;
+	--secondbg-color: #F5F5F5;
+	--thirdbg-color: #F5F4FA
+}
+/* SECOND BG COLOR */
+color: #F5F5F5
+
+/* THIRD BG COLOR */
+color: #F5F4FA
+
+/* Phone and email colors */
+rgba(255, 255, 255, 0.6)
+
+.logo {
+color: var(--hover-color);
+}
