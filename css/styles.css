@@ -3,14 +3,80 @@
 	--ndtxt-color: #757575;
 	--hover-color: #2196F3;
 	--white-color: #FFFFFF;
+	--bg-color: #2F303A;
 	--secondbg-color: #F5F5F5;
 	--thirdbg-color: #F5F4FA
 }
-/* SECOND BG COLOR */
-color: #F5F5F5
+/* SECOND BG COLOR
+ #F5F5F5
 
-/* THIRD BG COLOR */
-color: #F5F4FA
+THIRD BG COLOR
+ #F5F4FA
 
-/* Phone and email colors */
-rgba(255, 255, 255, 0.6)
+Phone and email colors
+
+color: rgba(255, 255, 255, 0.6) */
+
+
+/* delete dot */
+.list{
+	list-style: none;
+}
+ /* logo hover */
+.logo{
+	color: var(--hover-color);
+}
+.logotype{
+	color: #000000;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+	color: var(--hover-color);
+}
+.site-nav .link{
+	color: var(--txt-color);
+}
+
+.site-nav .link.current{
+	color: var(--hover-color)
+	;
+}
+
+.section .section-par{
+	color: var(--ndtxt-color);
+}
+
+	.conlist:hover,
+	.conlist:focus{
+		color: var(--hover-color);
+	}
+	.conlist{
+		color: var(--ndtxt-color);
+	}
+
+.first .first-title{
+	color: var(--white-color);
+}
+
+.section .section-title{
+	color: var(--txt-color);
+}
+
+.first{
+	background-color: var(--bg-color);
+}
+
+.button {
+	color: var(--white-color);
+	background-color: var(--hover-color);
+	font-size: 16px;
+}
+.button.primary{
+	background-color: var(--hover-color);
+	color: var(--white-color);
+}
+.button.secondary{
+	background-color: var(--white-color);
+	color: var(--hover-color);
+}
