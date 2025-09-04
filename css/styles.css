@@ -26,6 +26,14 @@ color: rgba(255, 255, 255, 0.6) */
 a {
 	text-decoration: none;
 }
+
+body{
+	background-color: var(--white-color);
+	color: var(--txt-color);
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
  /* logo hover */
 .logo{
 	color: var(--hover-color);
@@ -162,7 +170,7 @@ top: 174px;
 
 /* info@devstudio.com */
 
-position: absolute;
+/* position: absolute;
 width: 135px;
 height: 16px;
 left: 1078px;
@@ -180,7 +188,7 @@ color: #2196F3;
 
 /* ПУНКТУАЛЬНІСТЬ */
 
-position: absolute;
+/* position: absolute;
 width: 270px;
 height: 16px;
 left: 515px;
@@ -194,9 +202,9 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
-color: #212121;
+color: #212121; */
 
-/* Портфоліо */
+/* Портфоліо
 
 position: absolute;
 width: 72px;
@@ -212,25 +220,25 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #212121;
-/* Завдання організації, особливо рамки і місце навчання кадрів тягне у себе. */
+Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
 
 position: absolute;
 width: 270px;
 height: 48px;
 left: 515px;
-top: 800px;
+top: 800px; */
 
-font-family: 'Roboto';
+/* font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
-/* or 171% */
+or 171%
 letter-spacing: 0.03em;
 
 color: #757575;
 
-/* Чим ми займаємося */
+Чим ми займаємося
 
 position: absolute;
 width: 366px;
@@ -245,7 +253,7 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
-/* Наша команда */
+Наша команда
 
 position: absolute;
 width: 264px;
@@ -264,7 +272,7 @@ letter-spacing: 0.03em;
 color: #212121;
 
 
-/* Ольга Рєпіна */
+Ольга Рєпіна
 
 position: absolute;
 width: 104px;
@@ -277,13 +285,13 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
-/* identical to box height */
+identical to box height
 text-align: center;
 letter-spacing: 0.03em;
 
 color: #212121;
 
-/* Frontend Developer */
+Frontend Developer
 
 position: absolute;
 width: 147px;
@@ -296,11 +304,11 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-/* identical to box height */
+identical to box height
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #757575;
+color: #757575; */ */
 
 
 
