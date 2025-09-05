@@ -5,49 +5,65 @@
 	--white-color: #FFFFFF;
 	--bg-color: #2F303A;
 	--secondbg-color: #F5F5F5;
-	--thirdbg-color: #F5F4FA
+	--thirdbg-color: #F5F4FA;
+	--email-color: rgba(255, 255, 255, 0.6);
 }
-/* SECOND BG COLOR
- #F5F5F5
 
-THIRD BG COLOR
- #F5F4FA
-
-Phone and email colors
-
-color: rgba(255, 255, 255, 0.6) */
-
-
-/* delete dot */
+/* main tags */
 .list{
 	list-style: none;
 }
 
-a {
-	text-decoration: none;
+.link{
+	text-decoration-line: none;
 }
-
 body{
 	background-color: var(--white-color);
 	color: var(--txt-color);
 	font-family: Roboto, sans-serif;
 	font-weight: 400;
-	font-style: normal;
+	letter-spacing: 0.02em;
 }
- /* logo hover */
+ /* Navigation */
+
+ .hover{
+	text-decoration-line: none;
+ }
 .logo{
 	color: var(--hover-color);
-}
-.logotype{
-	color: #000000;
-}
 
+	font-family:Raleway ;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+}
+.logoblack{
+	color: #000000;
+
+	font-family:Raleway ;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+}
+.logowhite{
+	color: var(--white-color);
+
+		font-family:Raleway ;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+}
 .site-nav .link:hover,
 .site-nav .link:focus{
 	color: var(--hover-color);
 }
 .site-nav .link{
 	color: var(--txt-color);
+
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	text-decoration: none;
 }
 
 .site-nav .link.current{
@@ -65,10 +81,23 @@ body{
 	}
 	.conlist{
 		color: var(--ndtxt-color);
+
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 1.14;
+		text-decoration: none;
 	}
 
+	/* first section */
 .first .first-title{
 	color: var(--white-color);
+
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+	text-align: center;
 }
 
 .section .section-title{
@@ -79,31 +108,125 @@ body{
 	background-color: var(--bg-color);
 }
 
-.button {
+
+.first .button {
 	color: var(--white-color);
 	background-color: var(--hover-color);
+
+	font-weight: 700;
 	font-size: 16px;
+	line-height: 1.8;
+	align-items: center;
+	text-align: center;
+letter-spacing: 0.06em;
 }
+/* УВАГА ДО ДЕТАЛЕЙ 
 
-p{
-font-size: 24px;
-}
-h1{
-	font-size: 30px;
-	font-style:normal;
-	font-family:'Roboto', sans-serif;
-}
+color: #212121;
 
-h2 {
-	font-family:'Roboto';
-	font-size: 15px;
+
+/* About us */
+
+.about{
 	color: var(--txt-color);
+
+}
+
+.about .about-title{
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.about .about-par{
+	color: var(--ndtxt-color);
+
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+/* What we do */
+
+.actions .actions-title{
+	color: var(--txt-color);
+
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
 }
 
 
 
 
+/* Our team  */
+.team{
+color: var(--txt-color);
+background-color: var(--thirdbg-color);
+}
 
+.team .team-img{
+}
+
+.team .team-title{
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.12;
+text-align: center;
+}
+
+.team .team-titles{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+
+.team .team-par{
+color: var(--ndtxt-color);
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+
+/* Footer  */
+
+.footer{
+	background-color: var(--bg-color);
+}
+.address{
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+}
+
+
+	.address .hvr:hover,
+	.address .hvr:focus{
+		color: var(--hover-color);
+	}
+
+	.hvr{
+		text-decoration-line: none;
+	}
+
+
+.address .address-name{
+color: var(--white-color);
+
+text-decoration: none;
+}
+
+.address .address-info{
+color: var(--email-color);
+}
 
 
 
@@ -119,7 +242,30 @@ h2 {
 	color: var(--white-color);
 }
 
-/* filter 1 (active) */
+
+.projects{
+	color: var(--ndtxt-color);
+	
+	font-size: 16px;
+	line-height: 1.9;
+}
+
+.projects .projects-title{
+	color: var(--txt-color);
+
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+
+
+
+
+
+
+/* filter 1 (active) 
 .filter .one{
 position: absolute;
 width: 73px;
@@ -127,7 +273,7 @@ height: 38px;
 left: 512px;
 top: 174px;
 }
-/* filter 2 */
+ filter 2 
 
 .filter .two{
 	position: absolute;
@@ -137,7 +283,7 @@ left: 593px;
 top: 174px;
 }
 
-/* filter 3 */
+filter 3 
 .filter .three{
 	position: absolute;
 width: 112px;
@@ -145,7 +291,7 @@ height: 38px;
 left: 726px;
 top: 174px;
 }
-/* filter 4 */
+ filter 4
 
 .filter .four{
 	position: absolute;
@@ -155,7 +301,7 @@ left: 846px;
 top: 174px;
 }
 
-/* filter 5 */
+ filter 5 
 
 .filter .five{
 	position: absolute;
@@ -163,152 +309,4 @@ width: 130px;
 height: 38px;
 left: 957px;
 top: 174px;
-}
-
-
-
-
-/* info@devstudio.com */
-
-/* position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #2196F3;
-
-
-/* ПУНКТУАЛЬНІСТЬ */
-
-/* position: absolute;
-width: 270px;
-height: 16px;
-left: 515px;
-top: 774px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: #212121; */
-
-/* Портфоліо
-
-position: absolute;
-width: 72px;
-height: 16px;
-left: 548px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #212121;
-Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
-
-position: absolute;
-width: 270px;
-height: 48px;
-left: 515px;
-top: 800px; */
-
-/* font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-or 171%
-letter-spacing: 0.03em;
-
-color: #757575;
-
-Чим ми займаємося
-
-position: absolute;
-width: 366px;
-height: 42px;
-left: 617px;
-top: 966px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-Наша команда
-
-position: absolute;
-width: 264px;
-height: 42px;
-left: 668px;
-top: 1540px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
-
-
-Ольга Рєпіна
-
-position: absolute;
-width: 104px;
-height: 19px;
-left: 598px;
-top: 1922px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-identical to box height
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
-
-Frontend Developer
-
-position: absolute;
-width: 147px;
-height: 19px;
-left: 577px;
-top: 1951px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-identical to box height
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #757575; */ */
-
-
-
+} */
