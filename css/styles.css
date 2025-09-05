@@ -234,7 +234,16 @@ color: var(--email-color);
 .filter .filter-button{
 	background-color: var(--thirdbg-color);
 	color: var(--txt-color);
+
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
 }
+
 
 .filter .filter-button:hover,
 .filter .filter-button:focus{
@@ -245,7 +254,7 @@ color: var(--email-color);
 
 .projects{
 	color: var(--ndtxt-color);
-	
+
 	font-size: 16px;
 	line-height: 1.9;
 }
@@ -259,7 +268,10 @@ color: var(--email-color);
 	letter-spacing: 0.06em;
 }
 
-
+.button,
+.filter .filter-button{
+	cursor: pointer;
+}
 
 
 
