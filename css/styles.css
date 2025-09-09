@@ -2,11 +2,13 @@
   --txt-color: #212121;
   --ndtxt-color: #757575;
   --hover-color: #2196f3;
-  --white-color: #ffffff;
+  --second-txt-color: #ffffff;
   --bg-color: #2f303a;
   --secondbg-color: #f5f5f5;
   --thirdbg-color: #f5f4fa;
+  --logo-header-color: #000000;
   --email-color: rgba(255, 255, 255, 0.6);
+  --shadow-color: rgba(0, 0, 0, 0.25);
 }
 
 /* main tags */
@@ -15,7 +17,7 @@
 }
 
 body {
-  background-color: var(--white-color);
+  background-color: var(--second-txt-color);
   color: var(--txt-color);
 
   font-family: Roboto, sans-serif;
@@ -30,28 +32,21 @@ a {
 
 /* Navigation */
 
+.logo-link {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
 .logo {
   color: var(--hover-color);
-
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
 }
 .logo-header {
-  color: #000000;
-
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
+  color: var(--logo-header-color);
 }
 .logo-footer {
-  color: var(--white-color);
-
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
+  color: var(--second-txt-color);
 }
 
 .nav-link:hover,
@@ -84,14 +79,14 @@ a {
 }
 
 /* first section */
-.first .first-title {
-  color: var(--white-color);
+.hero .hero-title {
+  color: var(--second-txt-color);
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 4px 4px var(--shadow-color), 0px 4px 4px var(--shadow-color);
   text-align: center;
 }
 
@@ -99,12 +94,12 @@ a {
   color: var(--txt-color);
 }
 
-.first {
+.hero {
   background-color: var(--bg-color);
 }
 
-.first .order-button {
-  color: var(--white-color);
+.hero .order-button {
+  color: var(--second-txt-color);
   background-color: var(--hover-color);
 
   font-weight: 700;
@@ -194,7 +189,7 @@ color: #212121;
 }
 
 .company .company-name {
-  color: var(--white-color);
+  color: var(--second-txt-color);
 
   text-decoration: none;
 }
@@ -218,7 +213,7 @@ color: #212121;
 .filter .filter-button:hover,
 .filter .filter-button:focus {
   background-color: var(--hover-color);
-  color: var(--white-color);
+  color: var(--second-txt-color);
 }
 
 .projects {
