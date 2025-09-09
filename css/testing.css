@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.link-btn {
+  display: inline-block;
+  color: black;
+  background-color: tomato;
+  padding: 20px 40px;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.link-btn:hover,
+.link-btn:focus {
+  color: tomato;
+  background-color: blue;
+  border: white ilink-btn;
+}
+
+.btn-icon {
+  width: 20px;
+  height: 20px;
+  background-color: skyblue;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.box {
+  width: 500px;
+  height: 100px;
+  background-color: darkgreen;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
