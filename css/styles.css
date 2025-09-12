@@ -36,18 +36,28 @@ h5,
 h6 {
   margin-top: 0px;
   margin-bottom: 0px;
+  padding: 0px;
 }
+
 a {
   text-decoration-line: none;
 }
 
-/* Navigation */
+/* HEADER */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .logo-link {
+  display: block;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  margin-right: 93px;
+  margin-bottom: 0px;
 }
 
 .logo {
@@ -60,11 +70,18 @@ a {
   color: var(--second-txt-color);
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--hover-color);
 }
-.nav-link {
+
+.site-nav {
+  display: flex;
+  gap: 50px;
+  margin-right: 344px;
+}
+
+.site-nav-link {
   color: var(--txt-color);
 
   font-weight: 500;
@@ -72,16 +89,22 @@ a {
   text-decoration: none;
 }
 
-.nav-link.current {
+.site-nav-link.current {
   color: var(--hover-color);
   text-decoration: underline;
 }
 
-.contact-list:hover,
-.contact-list:focus {
+.contact {
+  display: flex;
+  gap: 50px;
+  /* margin-left: auto; */
+}
+
+.contact-link:hover,
+.contact-link:focus {
   color: var(--hover-color);
 }
-.contact-list {
+.contact-link {
   color: var(--ndtxt-color);
 
   font-weight: 500;
@@ -230,9 +253,6 @@ a {
   display: inline-block;
 }
 
-.logo-link {
-  margin-bottom: 20px;
-}
 .company {
   font-style: normal;
   line-height: 1.71;

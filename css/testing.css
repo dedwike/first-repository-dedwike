@@ -1,54 +1,117 @@
-html {
-  box-sizing: border-box;
+:root {
+  --txt-color: #212121;
+  --ndtxt-color: #757575;
+  --hover-color: #2196f3;
+  --second-txt-color: #ffffff;
+  --bg-color: #2f303a;
+  --secondbg-color: #f5f5f5;
+  --thirdbg-color: #f5f4fa;
+  --logo-header-color: #000000;
+  --email-color: rgba(255, 255, 255, 0.6);
+  --shadow-color: rgba(0, 0, 0, 0.25);
+  --button-shadow-color: rgba(0, 0, 0, 0.15);
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+/* main tags */
+.list {
+  list-style: none;
 }
 
 body {
-  margin: 0;
+  background-color: var(--second-txt-color);
+  color: var(--txt-color);
+
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
 }
 
-.link-btn {
-  display: inline-block;
-  color: black;
-  background-color: tomato;
-  padding: 20px 40px;
-  border: 3px solid black;
-  border-radius: 10px;
+a {
+  text-decoration-line: none;
+}
+
+/* HEADER */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gg {
+  display: flex;
+}
+
+.logo-link {
+  display: block;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  margin-right: 93px;
+  margin-bottom: 0px;
+}
+
+.logo {
+  color: var(--hover-color);
+}
+.logo-header {
+  color: var(--logo-header-color);
+}
+.logo-footer {
+  color: var(--second-txt-color);
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--hover-color);
+}
+
+/* Нав линк в прошлом снизу */
+.site-nav {
+  display: flex;
+  gap: 50px;
+  /* margin-right: 344px; */
+}
+
+.site-nav-link {
+  color: var(--txt-color);
+
+  font-weight: 500;
+  line-height: 1.14;
   text-decoration: none;
 }
 
-.link-btn:hover,
-.link-btn:focus {
-  color: tomato;
-  background-color: blue;
-  border: white ilink-btn;
+.site-nav-link.current {
+  color: var(--hover-color);
+  text-decoration: underline;
 }
 
-.btn-icon {
-  width: 20px;
-  height: 20px;
-  background-color: skyblue;
+.contact:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--hover-color);
+}
+.contact-link {
   display: inline-block;
-  margin-right: 5px;
-  vertical-align: middle;
-}
+  color: var(--ndtxt-color);
 
-.box {
-  width: 500px;
-  height: 100px;
-  background-color: darkgreen;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
+  font-weight: 500;
+  line-height: 1.14;
+  text-decoration: none;
 }
