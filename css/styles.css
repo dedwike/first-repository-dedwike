@@ -51,7 +51,7 @@ a {
 
 .container {
   width: 1200px;
-  padding: 0 15px;
+  /* padding: 0 15px; */
   margin: 0 auto;
 }
 /* HEADER */
@@ -349,7 +349,6 @@ a {
 
   border: none;
   border-radius: 4px;
-  /* padding: 6px 25px; */
 }
 /* Контент фильтра */
 
@@ -371,7 +370,7 @@ a {
   margin-bottom: 30px;
 }
 
-.project-list img {
+.project-item img {
   display: block;
 }
 
@@ -386,7 +385,7 @@ a {
   border-top: 0;
 }
 
-.project-item {
+.project-description-text {
   padding-bottom: 20px;
   padding-left: 24px;
 }
