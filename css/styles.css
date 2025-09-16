@@ -11,6 +11,7 @@
   --email-color: rgba(255, 255, 255, 0.6);
   --shadow-color: rgba(0, 0, 0, 0.25);
   --button-shadow-color: rgba(0, 0, 0, 0.15);
+  --border-color: #eeeeee;
 }
 
 /* main tags */
@@ -50,6 +51,8 @@ a {
 
 .container {
   width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 /* HEADER */
 .site-header {
@@ -310,11 +313,13 @@ a {
 /* Кнопки фильтра */
 .portfolio-section {
   align-items: center;
+  width: calc((100% - 60px) / 3);
 }
 
 .filter {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .filter-list:not(:last-child) {
@@ -332,6 +337,7 @@ a {
   letter-spacing: 0.03em;
   border: none;
   border-radius: 4px;
+  padding: 6px 22px;
 }
 
 .filter-button:hover,
@@ -341,6 +347,7 @@ a {
 
   border: none;
   border-radius: 4px;
+  padding: 6px 25px;
 }
 /* Контент фильтра */
 
@@ -362,10 +369,24 @@ a {
   margin-bottom: 30px;
 }
 
+.project-list img {
+  display: block;
+}
+
 .project {
   color: var(--ndtxt-color);
   font-size: 16px;
   line-height: 1.9;
+}
+
+.project-description {
+  border: 1px solid var(--border-color);
+  border-top: 0;
+}
+
+.project-item {
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 
 .project-title {
@@ -375,4 +396,5 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-left: 24px;
 }
