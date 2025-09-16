@@ -51,7 +51,6 @@ a {
 .container {
   width: 1200px;
 }
-
 /* HEADER */
 .site-header {
   display: flex;
@@ -315,9 +314,10 @@ a {
 
 .filter {
   display: flex;
+  justify-content: center;
 }
 
-.filter-list.team-list:not(:last-child) {
+.filter-list:not(:last-child) {
   margin-right: 8px;
 }
 
