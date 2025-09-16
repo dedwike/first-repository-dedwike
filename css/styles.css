@@ -51,7 +51,7 @@ a {
 
 .container {
   width: 1200px;
-  /* padding: 0 15px; */
+  padding: 0 15px;
   margin: 0 auto;
 }
 /* HEADER */
@@ -352,14 +352,14 @@ a {
 }
 /* Контент фильтра */
 
-.project-item {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .project-list {
   display: block;
   margin-right: 30px;
+}
+
+.project-item {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project-list:nth-child(3n) {
