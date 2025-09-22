@@ -235,6 +235,12 @@ a {
   background-color: var(--thirdbg-color);
 }
 
+.team-container {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -246,6 +252,7 @@ a {
 
 .team-container > ul {
   display: flex;
+  align-items: center;
 }
 
 .team-list:not(:last-child) {
@@ -258,19 +265,12 @@ a {
 
 .team-name {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
 
   margin-bottom: 10px;
 }
 
 .team-profession {
   color: var(--ndtxt-color);
-
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
 
   margin-bottom: 30px;
 }
